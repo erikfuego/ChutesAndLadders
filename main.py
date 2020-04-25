@@ -56,6 +56,5 @@ VALUES = {
 }
 
 for index, player in enumerate(SORTED_PLAYERS):
+    player.turn = VALUES[index+1]
     print(f"\n{player.name} is {VALUES[index+1]}!")
-
-# print("hello world")
