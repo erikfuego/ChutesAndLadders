@@ -8,6 +8,6 @@ Description of file:
 from random import randint
 
 
-def FirstRoll():
+def Spin():
 
     return randint(1,6)
