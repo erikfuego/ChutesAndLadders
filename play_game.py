@@ -6,8 +6,6 @@ Created on 4/25/2020
 Description of file: 
 """
 from Board import EVENTS, BOARD
-from Spin import Spin
-
 
 class PlayGame(object):
 
