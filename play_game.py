@@ -5,7 +5,7 @@ Created on 4/25/2020
 
 Description of file: 
 """
-from Board import EVENTS, BOARD
+from board import EVENTS, BOARD
 
 class PlayGame(object):
 
