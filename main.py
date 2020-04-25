@@ -5,7 +5,8 @@ Created on 4/24/2020
 
 Description of file:
 """
-from FirstRoll import FirstRoll
+from PlayGame import PlayGame
+from Spin import Spin
 from Player import Player
 
 print(
@@ -28,7 +29,7 @@ for i in range(1, int(players)+1):
     spin = input("\nType in \"SPIN\" and press ENTER: ")
 
     if spin == 'SPIN':
-        turn = FirstRoll()
+        turn = Spin()
         print("\n%s, you spun a %s." % (player_name, turn))
 
         if turn not in PLAYERS.keys():
@@ -58,3 +59,8 @@ VALUES = {
 for index, player in enumerate(SORTED_PLAYERS):
     player.turn = VALUES[index+1]
     print(f"\n{player.name} is {VALUES[index+1]}!")
+
+game = PlayGame(players=SORTED_PLAYERS)
+
+game.run()
+
