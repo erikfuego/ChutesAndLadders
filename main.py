@@ -14,7 +14,18 @@ print(
 Welcome to Chutes And Ladders!
 """)
 
-players = input("How many people will be playing (1-4): ")
+valid_players = ['1', '2', '3', '4']
+
+def _players():
+    players = input("How many people will be playing (1-4): ")
+    return players
+
+
+players = _players()
+
+while players not in valid_players:
+    print("\nThe value \"%s\" is invalid. Please try again." % players)
+    players = _players()
 
 print("\nOkay! %s players will be playing." % players)
 
