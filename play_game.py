@@ -6,6 +6,8 @@ Created on 4/25/2020
 Description of file: 
 """
 from board import EVENTS, BOARD
+from clear_log import clear
+
 
 class PlayGame(object):
 
@@ -35,6 +37,7 @@ class PlayGame(object):
     def _spin(self, player):
         print("\n%s, it's your turn! Your current position is %s." % (player.name, player.position))
         value = input("\nPlease type in \"SPIN\" and press ENTER: ")
+        clear()
         return value
 
     def _valid_spin(self, player, spin):

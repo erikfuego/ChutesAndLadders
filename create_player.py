@@ -5,6 +5,7 @@ Created on 4/25/2020
 
 Description of file: 
 """
+from clear_log import clear
 from player import Player
 # from main import total_players, first_spins
 
@@ -15,12 +16,13 @@ first_spins = []
 def create_player(player_number):
 
         player_name = input("\nPlayer %s, what is your name: " % player_number)
-
+        clear()
         _spin(player_name)
 
 def _spin(player_name):
     print("\n%s, please spin to determine the order of players." % player_name)
     spin = input("\nType in \"SPIN\" and press ENTER: ")
+    clear()
 
     if spin == 'SPIN':
 

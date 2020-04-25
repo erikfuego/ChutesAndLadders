@@ -5,6 +5,7 @@ Created on 4/24/2020
 
 Description of file:
 """
+from clear_log import clear
 from create_player import create_player
 from play_game import PlayGame
 from sort_players import sorted_players, sort_players
@@ -18,6 +19,7 @@ valid_players = ['1', '2', '3', '4']
 
 def _players():
     players = input("How many people will be playing (1-4): ")
+    clear()
     return players
 
 
