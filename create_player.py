@@ -7,7 +7,6 @@ Description of file:
 """
 from clear_log import clear
 from player import Player
-# from main import total_players, first_spins
 
 total_players = dict()
 

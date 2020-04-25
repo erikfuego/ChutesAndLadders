@@ -22,7 +22,6 @@ def _players():
     clear()
     return players
 
-
 players = _players()
 
 while players not in valid_players:

@@ -8,7 +8,6 @@ Description of file:
 from board import EVENTS, BOARD
 from clear_log import clear
 
-
 class PlayGame(object):
 
     def __init__(self, players):

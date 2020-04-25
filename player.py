@@ -7,7 +7,6 @@ Description of file:
 """
 from random import randint
 
-
 class Player(object):
 
     def __init__(self, name, turn=0, position=0):
