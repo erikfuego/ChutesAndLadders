@@ -5,7 +5,7 @@ Created on 4/25/2020
 
 Description of file: 
 """
-from Player import Player
+from player import Player
 # from main import total_players, first_spins
 
 total_players = dict()
