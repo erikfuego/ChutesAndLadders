@@ -18,7 +18,7 @@ BOARD = {
     3: (3, 'Normal'),
     4: (14, 'Ladder'),
     5: (5, 'Normal'),
-    6: (5, 'Normal'),
+    6: (6, 'Normal'),
     7: (7, 'Normal'),
     8: (8, 'Normal'),
     9: (31, 'Ladder'),
