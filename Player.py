@@ -8,7 +8,7 @@ Description of file:
 
 class Player(object):
 
-    def __init__(self, name, turn, position=None):
+    def __init__(self, name, turn, position=0):
 
         self.name = name
         self.turn = turn
